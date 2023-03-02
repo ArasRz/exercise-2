@@ -1,0 +1,40 @@
+.App{
+  box-sizing: border-box;
+}
+#hero-bg {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#btn-counter, #btn-reset{
+  padding: 16px;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 20px;
+  
+}
+
+#btn-reset {
+  margin-top: 10px;
+}
+
+#section {
+  height: 220px;
+  margin: 0;
+  padding: 10px;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+
+}
